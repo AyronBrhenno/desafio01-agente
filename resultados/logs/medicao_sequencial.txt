@@ -1,0 +1,55 @@
+sequencial rodada 1 DIA-2026-0101 pedidos: validado acerto=True
+sequencial rodada 1 DIA-2026-0102 pedidos: validado acerto=True
+sequencial rodada 1 DIA-2026-0103 pedidos: validado acerto=True
+sequencial rodada 1 DIA-2026-0104 pedidos: validado acerto=True
+sequencial rodada 1 DIA-2026-0105 pedidos: validado acerto=True
+sequencial rodada 1 DIA-2026-0106 pedidos: validado acerto=True
+sequencial rodada 1 DIA-2026-0107 pedidos: validado acerto=True
+sequencial rodada 1 DIA-2026-0108 pedidos: validado acerto=True
+sequencial rodada 1 DIA-2026-0109 pedidos: validado acerto=True
+sequencial rodada 1 DIA-2026-0110 pedidos: validado acerto=True
+sequencial rodada 1 DIA-2026-0111 pedidos: validado acerto=True
+sequencial rodada 1 DIA-2026-0112 pedidos: validado acerto=True
+sequencial rodada 1 DIA-2026-0111 complementacoes: validado acerto=True
+sequencial rodada 1 DIA-2026-0112 complementacoes: validado acerto=True
+sequencial rodada 2 DIA-2026-0101 pedidos: validado acerto=True
+sequencial rodada 2 DIA-2026-0102 pedidos: validado acerto=True
+sequencial rodada 2 DIA-2026-0103 pedidos: validado acerto=True
+sequencial rodada 2 DIA-2026-0104 pedidos: validado acerto=True
+sequencial rodada 2 DIA-2026-0105 pedidos: validado acerto=True
+sequencial rodada 2 DIA-2026-0106 pedidos: validado acerto=True
+sequencial rodada 2 DIA-2026-0107 pedidos: validado acerto=True
+sequencial rodada 2 DIA-2026-0108 pedidos: validado acerto=True
+sequencial rodada 2 DIA-2026-0109 pedidos: validado acerto=True
+sequencial rodada 2 DIA-2026-0110 pedidos: validado acerto=True
+sequencial rodada 2 DIA-2026-0111 pedidos: validado acerto=True
+sequencial rodada 2 DIA-2026-0112 pedidos: validado acerto=True
+sequencial rodada 2 DIA-2026-0111 complementacoes: validado acerto=True
+sequencial rodada 2 DIA-2026-0112 complementacoes: validado acerto=True
+sequencial rodada 3 DIA-2026-0101 pedidos: validado acerto=True
+sequencial rodada 3 DIA-2026-0102 pedidos: validado acerto=True
+sequencial rodada 3 DIA-2026-0103 pedidos: validado acerto=True
+sequencial rodada 3 DIA-2026-0104 pedidos: validado acerto=True
+sequencial rodada 3 DIA-2026-0105 pedidos: validado acerto=True
+sequencial rodada 3 DIA-2026-0106 pedidos: validado acerto=True
+sequencial rodada 3 DIA-2026-0107 pedidos: validado acerto=True
+sequencial rodada 3 DIA-2026-0108 pedidos: validado acerto=True
+sequencial rodada 3 DIA-2026-0109 pedidos: validado acerto=True
+sequencial rodada 3 DIA-2026-0110 pedidos: validado acerto=True
+sequencial rodada 3 DIA-2026-0111 pedidos: validado acerto=True
+sequencial rodada 3 DIA-2026-0112 pedidos: validado acerto=True
+sequencial rodada 3 DIA-2026-0111 complementacoes: validado acerto=True
+sequencial rodada 3 DIA-2026-0112 complementacoes: validado acerto=True
+{
+  "casos": 42,
+  "acertos_exatos": 42,
+  "recusas_seguras": 0,
+  "erros_liberados": 0,
+  "tokens_entrada": 499203,
+  "tokens_saida": 26108,
+  "chamadas_modelo_media": 4.571428571428571,
+  "segundos_mediana": 7.9472000000000005,
+  "segundos_p95": 9.0421,
+  "segundos_total": 324.3486,
+  "custo_estimado_usd": 0.04456032
+}

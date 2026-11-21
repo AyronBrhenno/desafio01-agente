@@ -1,0 +1,37 @@
+{
+  "medicao_sequencial.json": {
+    "valido": true,
+    "concluida": true,
+    "arquivos_divergentes": []
+  },
+  "medicao_paralelo.json": {
+    "valido": true,
+    "concluida": true,
+    "arquivos_divergentes": []
+  },
+  "memoria.json": {
+    "valido": true,
+    "concluida": true,
+    "arquivos_divergentes": []
+  },
+  "formulario_real.json": {
+    "valido": true,
+    "concluida": true,
+    "arquivos_divergentes": []
+  },
+  "eliminacao_real_sem.json": {
+    "valido": true,
+    "concluida": true,
+    "arquivos_divergentes": []
+  },
+  "eliminacao_real_historico.json": {
+    "valido": true,
+    "concluida": true,
+    "arquivos_divergentes": []
+  },
+  "eliminacao_real_usuario.json": {
+    "valido": true,
+    "concluida": true,
+    "arquivos_divergentes": []
+  }
+}

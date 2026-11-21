@@ -1,0 +1,63 @@
+{
+  "natureza": "fixture com APIs reais de persistência; sem modelo",
+  "sessoes_carla_encontradas_so_por_user_id_correto": 0,
+  "linhas_carla_encontradas_por_varredura": {
+    "casos": 1,
+    "conferencias": 0,
+    "agno_sessions": 0,
+    "agno_schema_versions": 0,
+    "agno_runs": 1,
+    "agno_memories": 1
+  },
+  "recibos": [
+    {
+      "linhas_encontradas_antes": {
+        "casos": 1,
+        "conferencias": 0,
+        "agno_sessions": 1,
+        "agno_schema_versions": 0,
+        "agno_runs": 1,
+        "agno_memories": 1
+      },
+      "sessoes_apagadas": 1,
+      "memorias_apagadas": 1,
+      "residuos_apagados": {
+        "casos": 1
+      },
+      "restantes_por_tabela": {
+        "casos": 0,
+        "conferencias": 0,
+        "agno_sessions": 0,
+        "agno_schema_versions": 0,
+        "agno_runs": 0,
+        "agno_memories": 0
+      },
+      "eliminacao_verificada": true
+    },
+    {
+      "linhas_encontradas_antes": {
+        "casos": 1,
+        "conferencias": 0,
+        "agno_sessions": 0,
+        "agno_schema_versions": 0,
+        "agno_runs": 1,
+        "agno_memories": 1
+      },
+      "sessoes_apagadas": 1,
+      "memorias_apagadas": 1,
+      "residuos_apagados": {
+        "casos": 1
+      },
+      "restantes_por_tabela": {
+        "casos": 0,
+        "conferencias": 0,
+        "agno_sessions": 0,
+        "agno_schema_versions": 0,
+        "agno_runs": 0,
+        "agno_memories": 0
+      },
+      "eliminacao_verificada": true
+    }
+  ],
+  "sessao_outra_titular_preservada": true
+}

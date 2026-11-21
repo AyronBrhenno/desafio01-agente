@@ -1,0 +1,5 @@
+{
+  "consultas_testadas": 5,
+  "falhas_bloqueadas": 4,
+  "eliminacao_verificada": true
+}

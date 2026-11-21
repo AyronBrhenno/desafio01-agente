@@ -1,0 +1,162 @@
+{
+  "inicio_utc": "2026-11-21T18:47:41.540510+00:00",
+  "status": "concluida",
+  "etapas": [
+    {
+      "nome": "dependencias",
+      "comando": [
+        "python",
+        "-m",
+        "pip",
+        "install",
+        "--dry-run",
+        "--no-index",
+        "-r",
+        "requirements.txt"
+      ],
+      "status": "concluida",
+      "inicio_utc": "2026-11-21T18:47:41.569220+00:00",
+      "log": "resultados/logs/dependencias.txt",
+      "codigo_saida": 0,
+      "segundos": 0.949,
+      "fim_utc": "2026-11-21T18:47:42.519638+00:00"
+    },
+    {
+      "nome": "evidencias_locais",
+      "comando": [
+        "python",
+        "-m",
+        "src.main",
+        "evidencias"
+      ],
+      "status": "concluida",
+      "inicio_utc": "2026-11-21T18:47:42.531424+00:00",
+      "log": "resultados/logs/evidencias_locais.txt",
+      "codigo_saida": 0,
+      "segundos": 1.276,
+      "fim_utc": "2026-11-21T18:47:43.808234+00:00"
+    },
+    {
+      "nome": "instruir_cli",
+      "comando": [
+        "python",
+        "-m",
+        "src.main",
+        "instruir",
+        "DIA-2026-0101",
+        "--banco",
+        "estado/smoke-validacao.db"
+      ],
+      "status": "concluida",
+      "inicio_utc": "2026-11-21T18:47:43.820833+00:00",
+      "log": "resultados/logs/instruir_cli.txt",
+      "codigo_saida": 0,
+      "segundos": 14.999,
+      "fim_utc": "2026-11-21T18:47:58.820643+00:00"
+    },
+    {
+      "nome": "medicao_sequencial",
+      "comando": [
+        "python",
+        "-m",
+        "src.main",
+        "medir",
+        "--rodadas",
+        "3"
+      ],
+      "status": "concluida",
+      "inicio_utc": "2026-11-21T18:47:58.834527+00:00",
+      "log": "resultados/logs/medicao_sequencial.txt",
+      "codigo_saida": 0,
+      "segundos": 327.281,
+      "fim_utc": "2026-11-21T18:53:26.116654+00:00"
+    },
+    {
+      "nome": "medicao_paralelo",
+      "comando": [
+        "python",
+        "-m",
+        "src.main",
+        "medir",
+        "--rodadas",
+        "3",
+        "--paralelo"
+      ],
+      "status": "concluida",
+      "inicio_utc": "2026-11-21T18:53:26.129499+00:00",
+      "log": "resultados/logs/medicao_paralelo.txt",
+      "codigo_saida": 0,
+      "segundos": 290.006,
+      "fim_utc": "2026-11-21T18:58:16.137276+00:00"
+    },
+    {
+      "nome": "memoria",
+      "comando": [
+        "python",
+        "-m",
+        "src.main",
+        "memoria"
+      ],
+      "status": "concluida",
+      "inicio_utc": "2026-11-21T18:58:16.153066+00:00",
+      "log": "resultados/logs/memoria.txt",
+      "codigo_saida": 0,
+      "segundos": 82.289,
+      "fim_utc": "2026-11-21T18:59:38.443042+00:00"
+    },
+    {
+      "nome": "formulario_real",
+      "comando": [
+        "python",
+        "-m",
+        "scripts.formulario_real"
+      ],
+      "status": "concluida",
+      "inicio_utc": "2026-11-21T18:59:38.459980+00:00",
+      "log": "resultados/logs/formulario_real.txt",
+      "codigo_saida": 0,
+      "segundos": 11.85,
+      "fim_utc": "2026-11-21T18:59:50.311311+00:00"
+    },
+    {
+      "nome": "relatorio",
+      "comando": [
+        "python",
+        "-m",
+        "src.main",
+        "relatorio"
+      ],
+      "status": "concluida",
+      "inicio_utc": "2026-11-21T18:59:50.325781+00:00",
+      "log": "resultados/logs/relatorio.txt",
+      "codigo_saida": 0,
+      "segundos": 0.459,
+      "fim_utc": "2026-11-21T18:59:50.786771+00:00"
+    },
+    {
+      "nome": "validacao_final",
+      "comando": [
+        "python",
+        "-m",
+        "scripts.validar_entrega"
+      ],
+      "status": "concluida",
+      "inicio_utc": "2026-11-21T18:59:50.800127+00:00",
+      "log": "resultados/logs/validacao_final.txt",
+      "codigo_saida": 0,
+      "segundos": 7.093,
+      "fim_utc": "2026-11-21T18:59:57.894220+00:00"
+    },
+    {
+      "nome": "servidor_streamlit",
+      "status": "concluida",
+      "health_ok": true,
+      "porta": 17555,
+      "servidor_encerrado": true
+    }
+  ],
+  "natureza": "Rodada real autorizada; banco e resultados novos; conferência da interface é teste automatizado.",
+  "entradas_preservadas": true,
+  "fontes_preservados_nas_medicoes": true,
+  "fim_utc": "2026-11-21T18:59:59.607499+00:00"
+}

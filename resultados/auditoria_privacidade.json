@@ -1,0 +1,252 @@
+{
+  "bancos": {
+    "formulario-real.db": {
+      "casos": {
+        "linhas": 1,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "conferencias": {
+        "linhas": 1,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_sessions": {
+        "linhas": 1,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_schema_versions": {
+        "linhas": 2,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_runs": {
+        "linhas": 1,
+        "sem_cpf_ou_dados_bancarios": true
+      }
+    },
+    "medicao-paralelo-20261121-145328-1.db": {
+      "casos": {
+        "linhas": 12,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "conferencias": {
+        "linhas": 0,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_sessions": {
+        "linhas": 12,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_schema_versions": {
+        "linhas": 2,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_runs": {
+        "linhas": 14,
+        "sem_cpf_ou_dados_bancarios": true
+      }
+    },
+    "medicao-paralelo-20261121-145328-2.db": {
+      "casos": {
+        "linhas": 12,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "conferencias": {
+        "linhas": 0,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_sessions": {
+        "linhas": 12,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_schema_versions": {
+        "linhas": 2,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_runs": {
+        "linhas": 14,
+        "sem_cpf_ou_dados_bancarios": true
+      }
+    },
+    "medicao-paralelo-20261121-145328-3.db": {
+      "casos": {
+        "linhas": 12,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "conferencias": {
+        "linhas": 0,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_sessions": {
+        "linhas": 12,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_schema_versions": {
+        "linhas": 2,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_runs": {
+        "linhas": 14,
+        "sem_cpf_ou_dados_bancarios": true
+      }
+    },
+    "medicao-sequencial-20261121-144801-1.db": {
+      "casos": {
+        "linhas": 12,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "conferencias": {
+        "linhas": 0,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_sessions": {
+        "linhas": 12,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_schema_versions": {
+        "linhas": 2,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_runs": {
+        "linhas": 14,
+        "sem_cpf_ou_dados_bancarios": true
+      }
+    },
+    "medicao-sequencial-20261121-144801-2.db": {
+      "casos": {
+        "linhas": 12,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "conferencias": {
+        "linhas": 0,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_sessions": {
+        "linhas": 12,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_schema_versions": {
+        "linhas": 2,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_runs": {
+        "linhas": 14,
+        "sem_cpf_ou_dados_bancarios": true
+      }
+    },
+    "medicao-sequencial-20261121-144801-3.db": {
+      "casos": {
+        "linhas": 12,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "conferencias": {
+        "linhas": 0,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_sessions": {
+        "linhas": 12,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_schema_versions": {
+        "linhas": 2,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_runs": {
+        "linhas": 14,
+        "sem_cpf_ou_dados_bancarios": true
+      }
+    },
+    "memoria-historico-20261121-145818.db": {
+      "casos": {
+        "linhas": 0,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "conferencias": {
+        "linhas": 0,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_sessions": {
+        "linhas": 0,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_schema_versions": {
+        "linhas": 2,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_runs": {
+        "linhas": 0,
+        "sem_cpf_ou_dados_bancarios": true
+      }
+    },
+    "memoria-sem-20261121-145818.db": {
+      "casos": {
+        "linhas": 0,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "conferencias": {
+        "linhas": 0,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_sessions": {
+        "linhas": 0,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_schema_versions": {
+        "linhas": 2,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_runs": {
+        "linhas": 0,
+        "sem_cpf_ou_dados_bancarios": true
+      }
+    },
+    "memoria-usuario-20261121-145818.db": {
+      "casos": {
+        "linhas": 0,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "conferencias": {
+        "linhas": 0,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_memories": {
+        "linhas": 0,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_schema_versions": {
+        "linhas": 3,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_sessions": {
+        "linhas": 0,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_runs": {
+        "linhas": 0,
+        "sem_cpf_ou_dados_bancarios": true
+      }
+    },
+    "smoke-validacao.db": {
+      "casos": {
+        "linhas": 1,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "conferencias": {
+        "linhas": 0,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_sessions": {
+        "linhas": 1,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_schema_versions": {
+        "linhas": 2,
+        "sem_cpf_ou_dados_bancarios": true
+      },
+      "agno_runs": {
+        "linhas": 1,
+        "sem_cpf_ou_dados_bancarios": true
+      }
+    }
+  },
+  "criterio": "Textos de todas as tabelas, preservando UUIDs e hashes tipados.",
+  "todos_sem_pii": true
+}

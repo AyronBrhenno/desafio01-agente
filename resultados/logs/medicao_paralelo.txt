@@ -1,0 +1,55 @@
+paralelo rodada 1 DIA-2026-0101 pedidos: validado acerto=True
+paralelo rodada 1 DIA-2026-0102 pedidos: validado acerto=True
+paralelo rodada 1 DIA-2026-0103 pedidos: validado acerto=True
+paralelo rodada 1 DIA-2026-0104 pedidos: validado acerto=True
+paralelo rodada 1 DIA-2026-0105 pedidos: validado acerto=True
+paralelo rodada 1 DIA-2026-0106 pedidos: validado acerto=True
+paralelo rodada 1 DIA-2026-0107 pedidos: validado acerto=True
+paralelo rodada 1 DIA-2026-0108 pedidos: validado acerto=True
+paralelo rodada 1 DIA-2026-0109 pedidos: validado acerto=True
+paralelo rodada 1 DIA-2026-0110 pedidos: validado acerto=True
+paralelo rodada 1 DIA-2026-0111 pedidos: validado acerto=True
+paralelo rodada 1 DIA-2026-0112 pedidos: validado acerto=True
+paralelo rodada 1 DIA-2026-0111 complementacoes: validado acerto=True
+paralelo rodada 1 DIA-2026-0112 complementacoes: validado acerto=True
+paralelo rodada 2 DIA-2026-0101 pedidos: validado acerto=True
+paralelo rodada 2 DIA-2026-0102 pedidos: validado acerto=True
+paralelo rodada 2 DIA-2026-0103 pedidos: validado acerto=True
+paralelo rodada 2 DIA-2026-0104 pedidos: validado acerto=True
+paralelo rodada 2 DIA-2026-0105 pedidos: validado acerto=True
+paralelo rodada 2 DIA-2026-0106 pedidos: validado acerto=True
+paralelo rodada 2 DIA-2026-0107 pedidos: validado acerto=True
+paralelo rodada 2 DIA-2026-0108 pedidos: validado acerto=True
+paralelo rodada 2 DIA-2026-0109 pedidos: validado acerto=True
+paralelo rodada 2 DIA-2026-0110 pedidos: validado acerto=True
+paralelo rodada 2 DIA-2026-0111 pedidos: validado acerto=True
+paralelo rodada 2 DIA-2026-0112 pedidos: validado acerto=True
+paralelo rodada 2 DIA-2026-0111 complementacoes: validado acerto=True
+paralelo rodada 2 DIA-2026-0112 complementacoes: validado acerto=True
+paralelo rodada 3 DIA-2026-0101 pedidos: validado acerto=True
+paralelo rodada 3 DIA-2026-0102 pedidos: validado acerto=True
+paralelo rodada 3 DIA-2026-0103 pedidos: validado acerto=True
+paralelo rodada 3 DIA-2026-0104 pedidos: validado acerto=True
+paralelo rodada 3 DIA-2026-0105 pedidos: validado acerto=True
+paralelo rodada 3 DIA-2026-0106 pedidos: validado acerto=True
+paralelo rodada 3 DIA-2026-0107 pedidos: validado acerto=True
+paralelo rodada 3 DIA-2026-0108 pedidos: validado acerto=True
+paralelo rodada 3 DIA-2026-0109 pedidos: validado acerto=True
+paralelo rodada 3 DIA-2026-0110 pedidos: validado acerto=True
+paralelo rodada 3 DIA-2026-0111 pedidos: validado acerto=True
+paralelo rodada 3 DIA-2026-0112 pedidos: validado acerto=True
+paralelo rodada 3 DIA-2026-0111 complementacoes: validado acerto=True
+paralelo rodada 3 DIA-2026-0112 complementacoes: validado acerto=True
+{
+  "casos": 42,
+  "acertos_exatos": 42,
+  "recusas_seguras": 0,
+  "erros_liberados": 0,
+  "tokens_entrada": 409274,
+  "tokens_saida": 25987,
+  "chamadas_modelo_media": 3.761904761904762,
+  "segundos_mediana": 6.9198,
+  "segundos_p95": 8.021,
+  "segundos_total": 287.0677,
+  "custo_estimado_usd": 0.04324924
+}

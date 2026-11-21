@@ -1,0 +1,13 @@
+AVISO   Consulta bloqueada: a matrícula está ausente ou difere do pedido.
+AVISO   Limite de chamadas ao modelo atingido. O caso segue para análise manual.
+memoria=sem DIA-2026-0111: analise_manual acerto=False
+memoria=sem DIA-2026-0112: analise_manual acerto=False
+memoria=historico DIA-2026-0111: validado acerto=True
+memoria=historico DIA-2026-0112: validado acerto=True
+memoria=usuario DIA-2026-0111: validado acerto=True
+memoria=usuario DIA-2026-0112: validado acerto=True
+{
+  "configuracoes": 3,
+  "complementacoes": 6,
+  "acertos": 4
+}

@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+estado/
+*.db
+*.db-wal
+*.db-shm
+entrega-desafio01.zip

@@ -1,0 +1,65 @@
+{
+  "cadastro_matricula_digitada_no_0112": {
+    "encontrado": true,
+    "servidor": {
+      "matricula": "207481",
+      "nome": "Rafael Lima Antunes",
+      "cargo": "Analista de Meio Ambiente",
+      "grupo_diaria": "B",
+      "unidade": "CFA",
+      "municipio_sede": "Cuiabá"
+    }
+  },
+  "prestacao_vencida_0108": {
+    "matricula": "203648",
+    "mes": "2026-11",
+    "data_da_analise": "2026-10-09",
+    "quantidade_concedida": 0.0,
+    "limite_mensal": 10.0,
+    "saldo_mensal": 10.0,
+    "prestacoes_pendentes": [
+      {
+        "pedido": "DIA-2026-0023",
+        "data_retorno": "2026-09-18",
+        "prazo": "2026-09-25",
+        "vencida": true
+      }
+    ],
+    "possui_prestacao_vencida": true
+  },
+  "prestacao_dentro_prazo_0102": {
+    "matricula": "205882",
+    "mes": "2026-11",
+    "data_da_analise": "2026-10-09",
+    "quantidade_concedida": 0.0,
+    "limite_mensal": 10.0,
+    "saldo_mensal": 10.0,
+    "prestacoes_pendentes": [
+      {
+        "pedido": "DIA-2026-0041",
+        "data_retorno": "2026-10-06",
+        "prazo": "2026-10-13",
+        "vencida": false
+      }
+    ],
+    "possui_prestacao_vencida": false
+  },
+  "meia_diaria_0103": {
+    "grupo": "B",
+    "classe_destino": "interior_mt",
+    "pernoites": 0,
+    "quantidade_diarias": 0.5,
+    "valor_unitario": 280.0,
+    "valor_total": 140.0,
+    "antecedencia_dias": 29,
+    "antecedencia_minima_dias": 10,
+    "antecedencia_atendida": true
+  },
+  "saldo_insuficiente_0110": {
+    "unidade": "CRH",
+    "saldo_disponivel": 640.0,
+    "valor_consultado": 1800.0,
+    "suficiente": false,
+    "diferenca": -1160.0
+  }
+}

@@ -1,0 +1,2 @@
+2026-11-21 14:59:41.372 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+{"natureza": "Teste automatizado Streamlit AppTest com API real; n\u00e3o \u00e9 revis\u00e3o humana", "modelo_substituido": false, "instrucao_validada": true, "erros_interface": 0, "registro_teste_persistido": true}

@@ -1,0 +1,10 @@
+{
+  "dados/complementacoes.json": true,
+  "dados/historico_diarias.csv": true,
+  "dados/normas.md": true,
+  "dados/pedidos.json": true,
+  "dados/servidores.csv": true,
+  "dados/tabela_diarias.json": true,
+  "dados/unidades.json": true,
+  "gabarito.json": true
+}

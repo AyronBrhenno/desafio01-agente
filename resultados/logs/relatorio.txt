@@ -1,0 +1,7 @@
+{
+  "relatorio": "D:\\desafio01-agente\\relatorio.md",
+  "configuracoes_encontradas": [
+    "sequencial",
+    "paralelo"
+  ]
+}

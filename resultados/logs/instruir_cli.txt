@@ -1,0 +1,165 @@
+{
+  "status": "validado",
+  "instrucao": {
+    "numero_pedido": "DIA-2026-0101",
+    "matricula": "204317",
+    "quantidade_diarias": 3.5,
+    "valor_total": 980.0,
+    "verificacoes": [
+      {
+        "criterio": "cadastro",
+        "situacao": "atende",
+        "detalhe": "{\"encontrado\": true, \"servidor\": {\"matricula\": \"204317\", \"nome\": \"Ana Paula Figueiredo\", \"cargo\": \"Fiscal Ambiental\", \"grupo_diaria\": \"B\", \"unidade\": \"CFF\", \"municipio_sede\": \"Cuiab\u00e1\"}}"
+      },
+      {
+        "criterio": "dados_completos",
+        "situacao": "atende",
+        "detalhe": "Campos obrigat\u00f3rios e cronologia conferidos."
+      },
+      {
+        "criterio": "antecedencia",
+        "situacao": "atende",
+        "detalhe": "{\"grupo\": \"B\", \"classe_destino\": \"interior_mt\", \"pernoites\": 3, \"quantidade_diarias\": 3.5, \"valor_unitario\": 280.0, \"valor_total\": 980.0, \"antecedencia_dias\": 32, \"antecedencia_minima_dias\": 10, \"antecedencia_atendida\": true} Art. 5\u00ba."
+      },
+      {
+        "criterio": "prestacao_contas",
+        "situacao": "atende",
+        "detalhe": "{\"matricula\": \"204317\", \"mes\": \"2026-11\", \"data_da_analise\": \"2026-10-09\", \"quantidade_concedida\": 0.0, \"limite_mensal\": 10.0, \"saldo_mensal\": 10.0, \"prestacoes_pendentes\": [], \"possui_prestacao_vencida\": false} Art. 7\u00ba."
+      },
+      {
+        "criterio": "limite_mensal",
+        "situacao": "atende",
+        "detalhe": "Concedidas 0.0; pedido 3.5; limite 10.0 no m\u00eas 2026-11. Art. 6\u00ba."
+      },
+      {
+        "criterio": "saldo_orcamentario",
+        "situacao": "atende",
+        "detalhe": "{\"unidade\": \"CFF\", \"saldo_disponivel\": 18400.0, \"valor_consultado\": 980.0, \"suficiente\": true, \"diferenca\": 17420.0} Art. 8\u00ba."
+      }
+    ],
+    "recomendacao": "apto_para_autorizacao",
+    "exige_autorizacao_superior": false,
+    "pendencias": [],
+    "alertas": [],
+    "minuta_despacho": "Pedido DIA-2026-0101, matr\u00edcula 204317. Instru\u00e7\u00e3o: 3.5 di\u00e1rias, total de R$ 980.00. Apto para submiss\u00e3o ao ordenador. Submeter \u00e0 confer\u00eancia humana e \u00e0 decis\u00e3o do ordenador de despesa (art. 10)."
+  },
+  "consultas": [
+    {
+      "ferramenta": "consultar_cadastro",
+      "argumentos": {
+        "matricula": "204317"
+      },
+      "resultado": {
+        "encontrado": true,
+        "servidor": {
+          "matricula": "204317",
+          "nome": "Ana Paula Figueiredo",
+          "cargo": "Fiscal Ambiental",
+          "grupo_diaria": "B",
+          "unidade": "CFF",
+          "municipio_sede": "Cuiab\u00e1"
+        }
+      }
+    },
+    {
+      "ferramenta": "calcular_diarias",
+      "argumentos": {
+        "grupo": "B",
+        "destino_uf": "MT",
+        "data_pedido": "2026-10-08",
+        "data_partida": "2026-11-09",
+        "data_retorno": "2026-11-12"
+      },
+      "resultado": {
+        "grupo": "B",
+        "classe_destino": "interior_mt",
+        "pernoites": 3,
+        "quantidade_diarias": 3.5,
+        "valor_unitario": 280.0,
+        "valor_total": 980.0,
+        "antecedencia_dias": 32,
+        "antecedencia_minima_dias": 10,
+        "antecedencia_atendida": true
+      }
+    },
+    {
+      "ferramenta": "consultar_historico",
+      "argumentos": {
+        "matricula": "204317",
+        "data_partida": "2026-11-09"
+      },
+      "resultado": {
+        "matricula": "204317",
+        "mes": "2026-11",
+        "data_da_analise": "2026-10-09",
+        "quantidade_concedida": 0.0,
+        "limite_mensal": 10.0,
+        "saldo_mensal": 10.0,
+        "prestacoes_pendentes": [],
+        "possui_prestacao_vencida": false
+      }
+    },
+    {
+      "ferramenta": "consultar_saldo_diarias",
+      "argumentos": {
+        "unidade": "CFF",
+        "valor": 980.0
+      },
+      "resultado": {
+        "unidade": "CFF",
+        "saldo_disponivel": 18400.0,
+        "valor_consultado": 980.0,
+        "suficiente": true,
+        "diferenca": 17420.0
+      }
+    }
+  ],
+  "metricas": {
+    "modelo": "gpt-5.6-luna",
+    "paralelo": false,
+    "memoria": "historico",
+    "chamadas_modelo": 5,
+    "tentativas_modelo": 5,
+    "chamadas": [
+      {
+        "finalidade": "instrucao",
+        "entrada": 2269,
+        "saida": 21,
+        "cache": 1996,
+        "segundos": 3.2643
+      },
+      {
+        "finalidade": "instrucao",
+        "entrada": 2369,
+        "saida": 60,
+        "cache": 2266,
+        "segundos": 1.692
+      },
+      {
+        "finalidade": "instrucao",
+        "entrada": 2527,
+        "saida": 33,
+        "cache": 2366,
+        "segundos": 1.6394
+      },
+      {
+        "finalidade": "instrucao",
+        "entrada": 2661,
+        "saida": 29,
+        "cache": 2524,
+        "segundos": 1.6716
+      },
+      {
+        "finalidade": "instrucao",
+        "entrada": 2754,
+        "saida": 476,
+        "cache": 2658,
+        "segundos": 3.7683
+      }
+    ],
+    "tokens_entrada": 12580,
+    "tokens_saida": 619,
+    "segundos": 12.1343,
+    "custo_usd": 0.001133
+  }
+}

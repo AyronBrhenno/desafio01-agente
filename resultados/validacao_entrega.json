@@ -1,0 +1,7 @@
+{
+  "testes_passaram": true,
+  "bancos_sem_pii": true,
+  "hashes_conferem": true,
+  "evidencias_sem_pii": true,
+  "bancos_verificados": 11
+}

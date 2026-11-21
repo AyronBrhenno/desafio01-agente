@@ -1,0 +1,30 @@
+[
+  {
+    "falha": "matricula_inventada",
+    "natureza": "injeção controlada sem API",
+    "bloqueada": true,
+    "conteudo_exposto": false,
+    "mensagem": "Não foi possível validar esta instrução. Encaminhe o pedido para análise manual. Nenhuma recomendação desta execução foi liberada."
+  },
+  {
+    "falha": "retorno_inventado",
+    "natureza": "injeção controlada sem API",
+    "bloqueada": true,
+    "conteudo_exposto": false,
+    "mensagem": "Não foi possível validar esta instrução. Encaminhe o pedido para análise manual. Nenhuma recomendação desta execução foi liberada."
+  },
+  {
+    "falha": "valor_inventado",
+    "natureza": "injeção controlada sem API",
+    "bloqueada": true,
+    "conteudo_exposto": false,
+    "mensagem": "Não foi possível validar esta instrução. Encaminhe o pedido para análise manual. Nenhuma recomendação desta execução foi liberada."
+  },
+  {
+    "falha": "status_api_erro",
+    "natureza": "injeção controlada sem API",
+    "bloqueada": true,
+    "conteudo_exposto": false,
+    "mensagem": "Não foi possível validar esta instrução. Encaminhe o pedido para análise manual. Nenhuma recomendação desta execução foi liberada."
+  }
+]

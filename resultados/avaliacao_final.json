@@ -1,0 +1,99 @@
+{
+  "data_local": "2026-11-21T15:03:42.744480-04:00",
+  "nota_estimada": 9.5,
+  "metodo_nota": "Parecer técnico global pelos seis critérios do enunciado, sem atribuir pesos oficiais que o documento não fornece.",
+  "justificativa_nota": "Os critérios funcionais e de segurança foram atendidos no acervo do desafio. A reserva de 0,5 ponto reflete a validação em ambiente virtual já existente e a ausência de inspeção manual por um conferente humano nesta rodada.",
+  "criterios": [
+    {
+      "criterio": "Funcionamento de ponta a ponta",
+      "resultado": "atendido",
+      "evidencia": "42/42 acertos sequenciais e 42/42 com paralelismo, incluindo duas complementações em cada rodada; nenhuma saída incorreta liberada."
+    },
+    {
+      "criterio": "Ferramentas e agente",
+      "resultado": "atendido",
+      "evidencia": "Quatro ferramentas, contas em código, contrato Pydantic, limites, filtro de dados pessoais e validação de status; 36 testes locais aprovados."
+    },
+    {
+      "criterio": "Memória e eliminação",
+      "resultado": "atendido",
+      "evidencia": "Seis cenários medidos; quatro acertos com histórico/memórias e duas recusas sem memória; seis recibos de eliminação verificados, com zero resíduos dos titulares."
+    },
+    {
+      "criterio": "Medição e falhas",
+      "resultado": "atendido",
+      "evidencia": "Três rodadas por configuração, tokens/tempo/custo registrados; quatro falhas provocadas por injeção controlada sem API, todas bloqueadas."
+    },
+    {
+      "criterio": "Formulário de conferência",
+      "resultado": "atendido com verificação automatizada",
+      "evidencia": "AppTest com modelo real, instrução validada, minuta editada e registro identificado como teste; nenhum erro de interface. Não é conferência humana real."
+    },
+    {
+      "criterio": "Desenho e relatório",
+      "resultado": "atendido",
+      "evidencia": "PEAS, passos, confiabilidade composta, volume mensal e autonomia documentados; estimativas confrontadas com resultados; tabela de memória preenchida."
+    }
+  ],
+  "testes_locais_aprovados": 36,
+  "sequencial": {
+    "casos": 42,
+    "acertos_exatos": 42,
+    "recusas_seguras": 0,
+    "erros_liberados": 0,
+    "tokens_entrada": 499203,
+    "tokens_saida": 26108,
+    "chamadas_modelo_media": 4.571428571428571,
+    "segundos_mediana": 7.9472000000000005,
+    "segundos_p95": 9.0421,
+    "segundos_total": 324.3486,
+    "custo_estimado_usd": 0.04456032
+  },
+  "paralelo": {
+    "casos": 42,
+    "acertos_exatos": 42,
+    "recusas_seguras": 0,
+    "erros_liberados": 0,
+    "tokens_entrada": 409274,
+    "tokens_saida": 25987,
+    "chamadas_modelo_media": 3.761904761904762,
+    "segundos_mediana": 6.9198,
+    "segundos_p95": 8.021,
+    "segundos_total": 287.0677,
+    "custo_estimado_usd": 0.04324924
+  },
+  "memoria": {
+    "cenarios": 6,
+    "acertos": 4,
+    "recusas_sem_memoria": 2
+  },
+  "seguranca": {
+    "falhas_controladas_bloqueadas": 4,
+    "recibos_eliminacao_verificados": 6,
+    "bancos_auditados": 11
+  },
+  "interface": {
+    "instrucao_validada": true,
+    "registro_teste_persistido": true,
+    "erros_interface": 0,
+    "modelo_substituido": false
+  },
+  "consumo_total": {
+    "chamadas_modelo": 407,
+    "tokens_entrada": 1053633,
+    "tokens_saida": 60326,
+    "custo_estimado_usd": 0.10387416
+  },
+  "comparacao": {
+    "reducao_tokens_entrada_pct": 18.015,
+    "reducao_mediana_tempo_pct": 12.928
+  },
+  "entradas_preservadas": true,
+  "fontes_preservados_durante_medicoes": true,
+  "limitacoes": [
+    "Resultados do sistema composto no conjunto fixo fornecido; não medem generalização.",
+    "Comparação de tempo observacional, sujeita a cache e variação de rede/provedor.",
+    "Custo estimado segundo tarifas configuradas; não é fatura.",
+    "Instalação em máquina limpa e conferência por usuário real não executadas."
+  ]
+}
